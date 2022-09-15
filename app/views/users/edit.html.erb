@@ -1,0 +1,18 @@
+<h1>Editing User</h1>
+
+<%= render 'form', user: @user %>
+<div class="row ">
+    <div class="m-2 col-lg-7 col-7 menu-items">
+        <li class="mb-1" style="color: #93a3b5 !important;">
+            <i class="fa fa-user-circle">
+                <%= link_to 'Show', @user ,style: "color: #93a3b5 !important;" %>
+            </i>
+        </li>
+        <li class="mb-1" style="color: #93a3b5 !important;">
+            <i class="fa fa-clock-o">
+                <%= link_to 'Back', users_path, style: "color: #93a3b5 !important;" %>
+            </i>
+        </li>
+    </div>
+</div>
+
